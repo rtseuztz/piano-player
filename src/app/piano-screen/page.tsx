@@ -1,10 +1,11 @@
+import Key from "./key";
 
 
 export default function PianoScreen() {
 
     return (
         <main className="flex">
-            piano goes here
+            <Key keyName={"A0"}></Key>
         </main>
     )
 }
